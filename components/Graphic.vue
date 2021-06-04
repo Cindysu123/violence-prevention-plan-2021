@@ -6,7 +6,16 @@
           <v-flex shrink>
             <v-img
               :src="`https://dummyimage.com/${width}x${height}`"
+              :lazy-src="`https://dummyimage.com/10x10`"
               :alt="alt"
+            >
+              <template #placeholder>
+                <v-row class="fill-height ma-0" align="center" justify="center">
+                  <v-progress-circular
+                    indeterminate
+                    color="grey lighten-5"
+                  ></v-progress-circular>
+                </v-row> </template
             ></v-img>
           </v-flex>
         </v-layout>
@@ -28,9 +37,18 @@
       >
         <v-img
           :src="`https://dummyimage.com/${width}x${height}`"
+          :lazy-src="`https://dummyimage.com/10x10`"
           :alt="alt"
           :height="height"
           :width="width"
+        >
+          <template #placeholder>
+            <v-row class="fill-height ma-0" align="center" justify="center">
+              <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+              ></v-progress-circular>
+            </v-row> </template
         ></v-img>
       </div>
     </div>
@@ -45,9 +63,18 @@
       >
         <v-img
           :src="`https://dummyimage.com/${width}x${height}`"
+          :lazy-src="`https://dummyimage.com/10x10`"
           :alt="alt"
           :height="height"
           :width="width"
+        >
+          <template #placeholder>
+            <v-row class="fill-height ma-0" align="center" justify="center">
+              <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+              ></v-progress-circular>
+            </v-row> </template
         ></v-img>
       </div>
     </div>
@@ -62,12 +89,12 @@ export default {
       default: '',
     },
     width: {
-      type: String,
-      default: '200',
+      type: Number,
+      default: 200,
     },
     height: {
-      type: String,
-      default: '200',
+      type: Number,
+      default: 200,
     },
 
     orientation: {

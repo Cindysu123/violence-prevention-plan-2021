@@ -1,5 +1,7 @@
 # violence-prevention-plan-2021
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d4cf58a3-0526-4bb3-986c-0d194aa8ba10/deploy-status)](https://app.netlify.com/sites/icjia-vpp/deploys)
+
 ## Build Setup
 
 ```bash

@@ -123,10 +123,6 @@ Section 02: start
 
 <div class="col-12">
 
-Lorem markdownum altera Caicus successu cum: sed, et dea hic. Eodem hinc nec
-demens nudumque; Iunone, nam perque ipsa rursus data. Quoque proles: sustinet et
-semel sagittas cruoris neque, quosque.
-
 ## Et ait rata
 
 Me Achilli priores. Mortale forem nuda insula. Et et victa simillima, fatur,
@@ -184,10 +180,6 @@ Section 03: start
 <div class="row" >
 
 <div class="col-12">
-
-Lorem markdownum altera Caicus successu cum: sed, et dea hic. Eodem hinc nec
-demens nudumque; Iunone, nam perque ipsa rursus data. Quoque proles: sustinet et
-semel sagittas cruoris neque, quosque.
 
 ## Et ait rata
 
@@ -247,13 +239,6 @@ Section 04: start
 <div class="row" >
 
 <div class="col-12">
-
-Lorem markdownum solido solebat matresque tempora, flagrant undarum sollertia
-Pedasus unus. Per faciem perque sinitis, et illa cumque et Molossa fumida
-tulerunt remoratur. Titubat secundo, denique sustinet.
-
-Diu Tyron invenit si inputat mihi mihi si saevit candida, nec, fusus suo, et.
-Littera conlucere inposita, parat meque tibi habere casus? Legitima Iuppiter.
 
 ## Bucera coloribus
 
@@ -329,7 +314,21 @@ emicuit negabo. Evadere et victor et celebrant mora praestantior ille reddit
 Amoris audita; ultima.
 
 Aliena Thisbe et sed, et Byblis visa, cum quoque lectum animosus Antiphatae
+<Graphic alt="This is the alt text" height="200" width="200" orientation="inline-left"></Graphic>
 illud fatebar eat inprudens passi. Aeson Patraeque cuius cava etiam lustra, fuga
+inpedientibus inpia dedere honore ferrea monstra, herba vestem. Nant mundi
+occidit adgreditur regale, auxiliumque nullo, et sine nectare vulnificus dicta
+agros aufer gelidos ab? Ad petis adeste bracchia prolem moverat spinae, iram.
+Hic ibat: omnes ferre potest non, madebit nullam ferroque sequens aut tamen
+statque.
+
+Inpia dedere honore ferrea monstra, herba vestem. Nant mundi
+occidit adgreditur regale, auxiliumque nullo, et sine nectare vulnificus dicta
+agros aufer gelidos ab? Ad petis adeste bracchia prolem moverat spinae, iram.
+Hic ibat: omnes ferre potest non, madebit nullam ferroque sequens aut tamen
+statque.
+
+Aeson Patraeque cuius cava etiam lustra, fuga
 inpedientibus inpia dedere honore ferrea monstra, herba vestem. Nant mundi
 occidit adgreditur regale, auxiliumque nullo, et sine nectare vulnificus dicta
 agros aufer gelidos ab? Ad petis adeste bracchia prolem moverat spinae, iram.
@@ -348,6 +347,46 @@ Mea petit contentus quicquid et sine Latous comitem curvataque posset quodque
 pertimuit ulla. Et ab secreta, bene; porrigit corpora tunc nemus. Memorque
 negata, qui sint ulvaeque coniuge exuvias qui det dic ales cum arma habuisse
 deorum. Iuventam manus, poma quam nigrum.
+
+## Et in aurataque pellis nullius Sparte
+
+Lorem markdownum in commune: amborum incomptis te quam pugnantem cetera
+conticuit adhuc? Vox ad ebrietas novo: tamen: numquam enim. Aliquid hic cornua
+maior.
+
+Tibi nec retendit reice inhaeret et, est sinit membra exspectatum. Res tacto
+umor fletibus ab, quas suam priorum illum Enipeus. Licet negabit duarum nota,
+dei pastum habetque et frequentes Hiems. Templorum sperare forma: esto dum
+leges, ventis potae. Percussis dolens, non et herbae magnum inventa labor.
+
+Dari deae Amphionis vellet o in transferre et omina tantos erit. Ecquid vel.
+Mare vacuo tibi fretum Uranie tegitur ter dubiis pressus, in fastigia ore et.
+
+<Graphic alt="This is the alt text" height="300" width="400" orientation="inline-right"></Graphic>
+
+Sinamus munere transformata et ingens luce praenuntia flumina blando et mitem.
+Vomeribus matura, caelo late utile; nunc tumulo violentus orbem visa freto, arma
+fuerat. Intulit finitimi secutum! Vecte qua ter commune attritas Veneris, si
+plura proxima pelago bracchiaque gradus, in ducemque ambiguus an eodem
+referebat. Est dabitur vetat agros discordia sinistro; mecum incurrere, stetit
+nuper semper, non facta erat.
+
+Foret nisi marito visaque: abire quoque gaudia nulla admonita stravit, sive vis.
+Cadunt ubi iuventa rupit nec gemit te ignes ullo edidit Timoli quam pectore
+illis. In artus enim volitare torum. Patet aera non Typhoea tamen quam Peneia
+ait erit requiro viros, quia non puella lacrimis nullus capiebant. Cupiens et
+quoque germanam tollitur nympha et est, cremarat addit, iuncisque in parte, sic?
+
+Et donec. Geminato erras modo et arcus; sive quo latusque molire Haemonias tu.
+Milite aliis ut flammis numquam nomine est harenas regisque; pectore tulit:
+natantia aegra virgo crescentis volui.
+
+Miserata nunc tua, talia placuit in lumina traxit, est. Est aut totaque hausit
+innectere vidit centumque: aut quod. Capiti bis.
+
+Incumbens illam penetrabile maior ex ab, sive suis; cum regna crudeles Penthea
+diluvio nocturnae soceri tamen deus dextra. Ictibus O exiles imitatus proculcat
+Herse, Lacinia, et ille debere querulas!
 
 </div>
 

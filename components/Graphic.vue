@@ -17,6 +17,40 @@
         </v-layout>
       </v-container>
     </div>
+    <div v-if="orientation === 'inline-left'">
+      <div
+        style="
+          float: left;
+          padding-right: 15px;
+          padding-top: 15px;
+          padding-bottom: 5px;
+        "
+      >
+        <v-img
+          :src="`https://dummyimage.com/${width}x${height}`"
+          :alt="alt"
+          :height="height"
+          :width="width"
+        ></v-img>
+      </div>
+    </div>
+    <div v-if="orientation === 'inline-right'">
+      <div
+        style="
+          float: right;
+          padding-left: 15px;
+          padding-top: 15px;
+          padding-bottom: 5px;
+        "
+      >
+        <v-img
+          :src="`https://dummyimage.com/${width}x${height}`"
+          :alt="alt"
+          :height="height"
+          :width="width"
+        ></v-img>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,11 +63,11 @@ export default {
     },
     width: {
       type: String,
-      default: '1000',
+      default: '200',
     },
     height: {
       type: String,
-      default: '400',
+      default: '200',
     },
 
     orientation: {
@@ -46,20 +80,10 @@ export default {
     },
     caption: {
       type: String,
-      default: 'This is the default caption',
+      default: '',
     },
   },
 }
 </script>
 
-<style>
-.image {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.image--caption {
-  font-size: 14px;
-  color: #555;
-}
-</style>
+<style></style>

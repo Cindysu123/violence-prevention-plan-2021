@@ -4,6 +4,7 @@
     :src="`https://dummyimage.com/16:9x1080&text=${temp}`"
     :height="height"
     :alt="alt"
+    class="splash"
   ></v-img>
 </template>
 

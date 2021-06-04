@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <AppNav></AppNav>
     <v-main>
       <nuxt />
     </v-main>

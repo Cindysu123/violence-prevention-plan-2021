@@ -1,7 +1,7 @@
 <template>
   <!-- <v-img :src="`/${image}`" :height="height" :alt="alt"></v-img> -->
   <v-img
-    src="https://dummyimage.com/16:9x1080&text=Splash image here"
+    :src="`https://dummyimage.com/16:9x1080&text=${temp}`"
     :height="height"
     :alt="alt"
   ></v-img>
@@ -17,7 +17,11 @@ export default {
     },
     height: {
       type: String,
-      default: '400px',
+      default: '500px',
+    },
+    temp: {
+      type: String,
+      default: 'This is the placeholder text',
     },
     alt: {
       type: String,

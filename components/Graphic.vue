@@ -50,6 +50,7 @@
               ></v-progress-circular>
             </v-row> </template
         ></v-img>
+        <div class="text-center image--caption">{{ caption }}</div>
       </div>
     </div>
     <div v-if="orientation === 'inline-right'">
@@ -76,6 +77,7 @@
               ></v-progress-circular>
             </v-row> </template
         ></v-img>
+        <div class="text-center image--caption">{{ caption }}</div>
       </div>
     </div>
   </div>

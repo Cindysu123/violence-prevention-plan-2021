@@ -362,7 +362,7 @@ leges, ventis potae. Percussis dolens, non et herbae magnum inventa labor.
 Dari deae Amphionis vellet o in transferre et omina tantos erit. Ecquid vel.
 Mare vacuo tibi fretum Uranie tegitur ter dubiis pressus, in fastigia ore et.
 
-<Graphic alt="This is the alt text" height="300" width="400" orientation="inline-right"></Graphic>
+<Graphic alt="This is the alt text" height="300" width="400" orientation="inline-right" caption="This is a test caption"></Graphic>
 
 Sinamus munere transformata et ingens luce praenuntia flumina blando et mitem.
 Vomeribus matura, caelo late utile; nunc tumulo violentus orbem visa freto, arma

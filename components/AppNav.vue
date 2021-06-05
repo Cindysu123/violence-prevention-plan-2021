@@ -20,22 +20,13 @@
       src="/icjia-logo.png"
       transition="scale-transition"
       width="90"
-      style
-      @click="
-        $router.push('/').catch((err) => {
-          $vuetify.goTo(0)
-        })
-      "
+      @click="gotoTop()"
     />
 
     <div
       style="font-size: 24px; font-weight: bold; margin-left: 5px"
       class="hover hidden-sm-and-down"
-      @click="
-        $router.push('/').catch((err) => {
-          $vuetify.goTo(0)
-        })
-      "
+      @click="gotoTop()"
     >
       VIOLENCE PREVENTION PROJECT
     </div>
@@ -56,6 +47,11 @@ export default {
   methods: {
     toggleSidebar() {
       EventBus.$emit('toggleSidebar')
+    },
+    gotoTop() {
+      // eslint-disable-next-line no-console
+      // console.log('goto Top')
+      this.$vuetify.goTo(0)
     },
   },
 }

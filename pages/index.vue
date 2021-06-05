@@ -33,7 +33,8 @@ export default {
           'click',
           function (e) {
             e.preventDefault()
-            vm.$vuetify.goTo(this.getAttribute('href'), { offset: -10 })
+            // console.log(this.getAttribute('href'))
+            vm.$vuetify.goTo(this.getAttribute('href'), { offset: 100 })
           },
           10
         )
@@ -50,6 +51,10 @@ export default {
         )
       }
     })
+  },
+  beforeDestroy() {
+    window.removeEventListener('click', null)
+    console.log('beforeDestroy')
   },
   methods: {
     fixA11y() {

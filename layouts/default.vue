@@ -1,5 +1,5 @@
 <template>
-  <no-ssr>
+  <client-only>
     <!-- <SkipLinks></SkipLinks> -->
     <v-app>
       <div style="min-height: 100vh !important">
@@ -11,7 +11,7 @@
       </div>
       <!-- <AppFooter></AppFooter> -->
     </v-app>
-  </no-ssr>
+  </client-only>
 </template>
 
 <script>

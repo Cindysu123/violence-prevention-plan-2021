@@ -1,7 +1,6 @@
 <template>
   <div style="margin-top: 90px">
-    <div v-if="loading"><Loader></Loader></div>
-    <nuxt-content v-else :document="page" class="markdown-body" />
+    <nuxt-content :document="page" class="markdown-body" />
   </div>
 </template>
 

@@ -24,8 +24,14 @@ export default {
       loading: true,
     }
   },
+  watch: {
+    loading(newValue) {
+      console.log('loading: ', newValue)
+    },
+  },
   async mounted() {
     await this.$nextTick(() => {
+      console.log('loading: ', this.loading)
       console.log('content ready')
       this.fixA11y()
       const vm = this

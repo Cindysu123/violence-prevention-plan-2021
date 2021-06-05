@@ -26,8 +26,19 @@ export default {
     await this.$nextTick(() => {
       console.log('content ready')
       this.fixA11y()
-      const elements = document.getElementsByClassName('footnote-backref')
       const vm = this
+      const fnRef = document.getElementsByClassName('footnote-ref')
+      for (let i = 0; i < fnRef.length; i++) {
+        fnRef[i].addEventListener(
+          'click',
+          function (e) {
+            e.preventDefault()
+            vm.$vuetify.goTo(this.getAttribute('href'), { offset: -10 })
+          },
+          10
+        )
+      }
+      const elements = document.getElementsByClassName('footnote-backref')
       for (let i = 0; i < elements.length; i++) {
         elements[i].addEventListener(
           'click',

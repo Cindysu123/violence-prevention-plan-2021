@@ -129,6 +129,8 @@ Me Achilli priores. Mortale forem nuda insula. Et et victa simillima, fatur,
 instant mihi prius Styga et isset arvo omnes! Neu ter, dura tenens dum canibus
 vatum.
 
+Here's a simple footnote,[^1] and here's a longer one.[^2]
+
 Totoque armis, inmotas turba qui coortis simul optetis tamen loquatur! Capro
 fecit tot abominor talia posita ponto saepe! Dixit et exspectatoque subitam
 Deianira dextra, caeruleo Achivi: adspice. Postquam fuisset animosos sonantem
@@ -274,6 +276,8 @@ partim. Nec per pectoraque nullam conticuere ripis redit an gradere nec; nec
 ille. Manibus nostris; aegre fateor, iamque Myrmidonasque clamat in antiquarum
 Dianae cepere cum.
 
+Here's some more footnotes,[^3] and here's a longer one.[^4]
+
 Frustra solet, includit trado deducentia meoque: pennis tamen plenum: fundunt
 dum vincite longo. Imitata et mille, signataque sumit deprensa indigenaene
 Pergama non mihi respicit corpora, nescio optat manus Virbius!
@@ -302,8 +306,6 @@ vires, ad liceret tardarunt inponis cuperem, armis ore ad mora, recepto
 pericula. Cum tutus alis illa haerebat, haec, profuga fervore pectoris maxima,
 bis. Solebat is tellus Circes deae, Ismenides gemitumque dura! Amplexus non,
 quem nec: non vir Cytherea pro senior ictibus.
-
-Here's a simple footnote,[^1] and here's a longer one.[^2]
 
 Lorem markdownum possint. A et nec perveniunt et tyranni summaque concipit,
 admisitque vix. Absistit mihi voce magni tandem vivit, conterminus, est palmas
@@ -433,3 +435,11 @@ Section 04: end
     Et donec. Geminato erras modo et arcus; sive quo latusque molire Haemonias tu.
     Milite aliis ut flammis numquam nomine est harenas regisque; pectore tulit:
     natantia aegra virgo crescentis volui.
+
+[^3]:
+    Omine est harenas regisque; pectore tulit:
+    natantia aegra virgo crescentis volui.
+
+[^4]:
+    Et donec. Geminato erras modo et arcus; sive quo latusque molire Haemonias tu.
+    Milite aliis ut flammis.

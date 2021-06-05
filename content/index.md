@@ -142,6 +142,31 @@ Acies incendia! Stymphalide de faciat ferro quaerenti parente Minyae arboribus
 quoque sororis canduit sub atque nunc ineamus sic palmite est. Pariter enim, vel
 sua subito quantum grandia: valvis Amphrisia.
 
+<details>
+  <summary>Senectus arcus sit, dum quoque iliacas luctus</summary>
+  <p>Totoque armis, inmotas turba qui coortis simul optetis tamen loquatur! Capro
+fecit tot abominor talia posita ponto saepe! Dixit et exspectatoque subitam
+Deianira dextra, caeruleo Achivi: adspice. Postquam fuisset animosos sonantem
+parentis quoque, sed dixit condidit gratia auguror aetherias inquit oderit
+ignibus opaca annis.</p>
+</details>
+
+<details>
+  <summary>Enim more diu quid procubuit matris</summary>
+  <p>Adeo est seu quamvis Ianthe sacri patuit ferrum, demptos. Et virgineos semper
+cognita deriguere onerataque, Galanthis, dea opem traderet, deo et dextra verba.
+Sub nocte, non surgimus, intumuit clausaeque te pudicam.</p>
+</details>
+
+<details>
+  <summary>Senectus arcus sit, dum quoque iliacas luctus</summary>
+  <p>Totoque armis, inmotas turba qui coortis simul optetis tamen loquatur! Capro
+fecit tot abominor talia posita ponto saepe! Dixit et exspectatoque subitam
+Deianira dextra, caeruleo Achivi: adspice. Postquam fuisset animosos sonantem
+parentis quoque, sed dixit condidit gratia auguror aetherias inquit oderit
+ignibus opaca annis.</p>
+</details>
+
 Dicentem annum somnique debere tangamque? Est ultima lumina conceptaque Nestor
 atque tempora genus armentaque omnes, fuit et. Arborei facies.
 
@@ -229,7 +254,7 @@ quos habet, non caecus, addunt conluerant in.
 Section 03: end
 ---------------------------------------- -->
 
-<Splash image="v.png" alt="This is the alt text" height="300" temp="Full width"></Splash>
+<Splash image="v.png" alt="This is the alt text" height="500" temp="Full width image"></Splash>
 
 <!-- ---------------------------------------
 Section 04: start
@@ -277,6 +302,8 @@ vires, ad liceret tardarunt inponis cuperem, armis ore ad mora, recepto
 pericula. Cum tutus alis illa haerebat, haec, profuga fervore pectoris maxima,
 bis. Solebat is tellus Circes deae, Ismenides gemitumque dura! Amplexus non,
 quem nec: non vir Cytherea pro senior ictibus.
+
+Here's a simple footnote,[^1] and here's a longer one.[^2]
 
 Lorem markdownum possint. A et nec perveniunt et tyranni summaque concipit,
 admisitque vix. Absistit mihi voce magni tandem vivit, conterminus, est palmas
@@ -396,3 +423,13 @@ Herse, Lacinia, et ille debere querulas!
 <!-- ---------------------------------------
 Section 04: end
 ---------------------------------------- -->
+
+[^1]: This is the first footnote.
+[^2]: Here's one with multiple paragraphs.
+
+    Foret nisi marito visaque: abire quoque gaudia nulla admonita stravit, sive vis.
+    Cadunt ubi iuventa rupit.
+
+    Et donec. Geminato erras modo et arcus; sive quo latusque molire Haemonias tu.
+    Milite aliis ut flammis numquam nomine est harenas regisque; pectore tulit:
+    natantia aegra virgo crescentis volui.

@@ -17,6 +17,11 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src: 'https://code.jquery.com/jquery-3.6.0.slim.min.js',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -49,6 +54,7 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
+    liveEdit: false,
     markdown: {
       // https://github.com/remarkjs/remark-external-links#options
       remarkExternalLinks: {

@@ -1,6 +1,7 @@
 <template>
   <div style="margin-top: 90px">
-    <nuxt-content :document="page" class="markdown-body" />
+    <div v-if="loading"><Loader></Loader></div>
+    <nuxt-content v-else :document="page" class="markdown-body" />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ export default {
   data() {
     return {
       elArr: () => [],
+      loading: true,
     }
   },
   async mounted() {
@@ -50,6 +52,7 @@ export default {
           10
         )
       }
+      this.loading = false
     })
   },
   beforeDestroy() {

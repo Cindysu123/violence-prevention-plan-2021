@@ -74,9 +74,12 @@ export default {
         // console.log(index + ': ' + window.jQuery(this).text())
         window.jQuery(this).text('^')
       })
-      // window
-      //   .jQuery('.footnotes ol')
-      //   .prepend('<h2 id="references">References</h2>')
+
+      window
+        .jQuery(
+          '<h2 id="references" style="margin-left: 15px; margin-right: 15px;">References</h2>'
+        )
+        .insertAfter('.footnotes hr')
       console.log('a11y fixes applied')
     },
   },

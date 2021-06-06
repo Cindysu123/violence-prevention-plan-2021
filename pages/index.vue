@@ -57,6 +57,7 @@ export default {
             e.preventDefault()
             vm.$vuetify.goTo(this.getAttribute('href'), { offset: 15 })
           },
+
           10
         )
       }
@@ -64,14 +65,32 @@ export default {
     })
   },
   beforeDestroy() {
-    window.removeEventListener('click', null)
-    window.addEventListener(
-      'click',
-      function (event) {
-        event.stopImmediatePropagation()
-      },
-      true
-    )
+    const vm = this
+    const elements = document.getElementsByClassName('footnote-backref')
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].removeEventListener(
+        'click',
+        function (e) {
+          e.preventDefault()
+          vm.$vuetify.goTo(this.getAttribute('href'), { offset: 15 })
+        },
+
+        10
+      )
+    }
+    const fnRef = document.getElementsByClassName('footnote-ref')
+    for (let i = 0; i < fnRef.length; i++) {
+      fnRef[i].removeEventListener(
+        'click',
+        function (e) {
+          e.preventDefault()
+          // console.log(this.getAttribute('href'))
+          vm.$vuetify.goTo(this.getAttribute('href'), { offset: 200 })
+        },
+        10
+      )
+    }
+    console.log('beforeDestroy: removeEventListeners')
   },
   methods: {
     fixA11y() {

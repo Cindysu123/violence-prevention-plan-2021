@@ -35,10 +35,12 @@ export default {
     els: null,
   }),
   async created() {},
-  mounted() {
-    const nodes = document.querySelectorAll('h2')
-    this.els = [...nodes]
-    console.log(this.els[0].innerHTML)
+  async mounted() {
+    await this.$nextTick(() => {
+      const nodes = document.querySelectorAll('h2')
+      this.els = [...nodes]
+      console.log('sidebar els: ', this.els)
+    })
 
     EventBus.$on('toggleSidebar', () => {
       console.log('toggle sidebar')

@@ -2,6 +2,7 @@
   <v-navigation-drawer
     v-model="drawer"
     app
+    right
     temporary
     disable-resize-watcher
     color="grey lighten-4"

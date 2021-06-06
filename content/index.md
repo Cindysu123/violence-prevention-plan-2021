@@ -124,7 +124,7 @@ Section 01: end
 Section 02: start
 ---------------------------------------- -->
 
-<div style="background: #f1f1f1 !important">
+<div style="background: #f1f1f1 !important" class="rule">
 <div class="container container--fluid" >
 <div class="row" >
 
@@ -295,7 +295,7 @@ Section 03: end
 <!-- ---------------------------------------
 Section 04: start
 ---------------------------------------- -->
-<div style="background: #f1f1f1 !important">
+<div style="background: #f1f1f1 !important" class="rule">
 <div class="container container--fluid" >
 <div class="row" >
 

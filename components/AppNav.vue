@@ -7,18 +7,13 @@
     scroll-threshold="1"
     style="border-bottom: 1px solid #eee !important"
   >
-    <v-app-bar-nav-icon
-      aria-label="Click to toggle sidebar"
-      @click="toggleSidebar"
-    ></v-app-bar-nav-icon>
-
     <v-spacer
       v-if="$vuetify.breakpoint.sm || $vuetify.breakpoint.xs"
     ></v-spacer>
 
     <v-img
       alt="ICJIA Logo"
-      class="shrink ml-2 mr-2 hover"
+      class="shrink ml-0 mr-2 hover"
       contain
       src="/icjia-logo.png"
       transition="scale-transition"
@@ -35,26 +30,28 @@
     </div>
 
     <v-spacer></v-spacer>
-    <v-btn
-      :small="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
-      :medium="
-        $vuetify.breakpoint.md ||
-        $vuetify.breakpoint.lg ||
-        $vuetify.breakpoint.xl
-      "
-      @click="downloadReport()"
-      >Download <span class="hidden-sm-and-down">Report</span
-      ><v-icon
-        right
-        :medium="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
-        :large="
-          $vuetify.breakpoint.md ||
-          $vuetify.breakpoint.lg ||
-          $vuetify.breakpoint.xl
-        "
-        >mdi mdi-file-pdf-outline</v-icon
-      ></v-btn
+    <v-tooltip left>
+      <template #activator="{ on, attrs }">
+        <v-btn
+          small
+          v-bind="attrs"
+          class="mr-5"
+          v-on="on"
+          @click="downloadReport()"
+          >Download <span class="hidden-sm-and-down">Report</span
+          ><v-icon right>mdi mdi-file-pdf-outline</v-icon></v-btn
+        >
+      </template>
+      <span>Click to download full report</span>
+    </v-tooltip>
+    <v-btn text style="font-weight: bold" @click="toggleSidebar">
+      MENU <v-icon right>mdi mdi-menu</v-icon></v-btn
     >
+
+    <!-- <v-app-bar-nav-icon
+      aria-label="Click to toggle sidebar"
+      @click="toggleSidebar"
+    ></v-app-bar-nav-icon> -->
   </v-app-bar>
 </template>
 

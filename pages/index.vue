@@ -65,7 +65,13 @@ export default {
   },
   beforeDestroy() {
     window.removeEventListener('click', null)
-    console.log('beforeDestroy')
+    window.addEventListener(
+      'click',
+      function (event) {
+        event.stopImmediatePropagation()
+      },
+      true
+    )
   },
   methods: {
     fixA11y() {

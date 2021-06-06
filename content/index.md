@@ -130,7 +130,7 @@ Section 02: start
 
 <div class="col-12">
 
-## Et ait rata
+## Et ait rata mortale
 
 Me Achilli priores. Mortale forem nuda insula. Et et victa simillima, fatur,
 instant mihi prius Styga et isset arvo omnes! Neu ter, dura tenens dum canibus
@@ -227,7 +227,7 @@ Deianira dextra, caeruleo Achivi: adspice. Postquam fuisset animosos sonantem
 parentis quoque, sed dixit condidit gratia auguror aetherias inquit oderit
 ignibus opaca annis.
 
-### Est suus hoc crura
+### Est suus hoc
 
 Senectus arcus sit, dum quoque Iliacas luctus et modo, thalamos quodcumque.
 Acies incendia! Stymphalide de faciat ferro quaerenti parente Minyae arboribus
@@ -266,7 +266,7 @@ parentis quoque, sed dixit condidit gratia auguror aetherias inquit oderit
 ignibus opaca annis.</p>
 </details>
 
-## Sinis medicina ad terram
+## Sinis medicina
 
 Adeo est seu quamvis Ianthe sacri patuit ferrum, demptos. Et virgineos semper
 cognita deriguere onerataque, Galanthis, dea opem traderet, deo et dextra verba.
@@ -320,7 +320,7 @@ Putat iungunt et plausu gelidum inplet, tempora numerare vidisse erunt: quas
 verte. At remittat verba. Et utque Victoria revellit adspicit tacto. Quid Abas
 pulvere nostri elementa.
 
-## Olentia antiquus cruentum finemque interdum latet
+## Olentia antiquus cruentum
 
 Pendent curre parat crurumque obscurum, fit retro retenta vulnere. Vel in vidit
 Dryope! Nimiis humus iam exprimitur filia, mutatur non supremumque lenimen mihi!
@@ -418,7 +418,7 @@ Section 05: start
 
 <div class="col-12">
 
-## Vires inhaeserat labitur metuenda gemmata inquinat solvere
+## Vires inhaeserat labitur metuenda
 
 Vulnere sit gerebat ferunt, sed pertimuit maturo? Indicat Phiale praerupit
 longis reliqui nubes retardat pectore, Ichnobates. Umbram quod quidem vellet

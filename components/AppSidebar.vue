@@ -6,7 +6,19 @@
     disable-resize-watcher
     color="grey lighten-4"
   >
-    {{ elArr }}
+    <div style="font-size: 16px; font-weight: 900; margin-bottom: 20px">
+      Sidebar TOC here
+    </div>
+    <div
+      v-if="els && els.length"
+      style="padding-left: 15px; padding-right: 5px"
+    >
+      <div v-for="(item, index) in els" :key="index">
+        <span class="hover" @click="gotoHeading(item)">{{
+          item.innerHTML
+        }}</span>
+      </div>
+    </div>
   </v-navigation-drawer>
 </template>
 
@@ -20,12 +32,13 @@ export default {
   data: () => ({
     drawer: false,
     items: null,
-    elArr: null,
+    els: null,
   }),
   async created() {},
   mounted() {
-    const els = document.querySelectorAll('h2, h3')
-    console.log(els)
+    const nodes = document.querySelectorAll('h2')
+    this.els = [...nodes]
+    console.log(this.els[0].innerHTML)
 
     EventBus.$on('toggleSidebar', () => {
       console.log('toggle sidebar')
@@ -37,6 +50,11 @@ export default {
     })
   },
   methods: {
+    gotoHeading(item) {
+      console.log('item: ', item.id)
+      this.drawer = false
+      this.$vuetify.goTo(`#${item.id}`, { offset: 8 })
+    },
     routeToPage(item) {
       // console.log(item);
       this.drawer = false

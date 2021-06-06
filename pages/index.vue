@@ -74,6 +74,9 @@ export default {
         // console.log(index + ': ' + window.jQuery(this).text())
         window.jQuery(this).text('^')
       })
+      // window
+      //   .jQuery('.footnotes ol')
+      //   .prepend('<h2 id="references">References</h2>')
     },
   },
 }

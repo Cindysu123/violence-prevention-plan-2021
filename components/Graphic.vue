@@ -15,6 +15,7 @@
                   <v-progress-circular
                     indeterminate
                     color="grey lighten-5"
+                    aria-label="This is the progress indicator"
                   ></v-progress-circular>
                 </v-row> </template
             ></v-img>
@@ -54,6 +55,7 @@
               <v-progress-circular
                 indeterminate
                 color="grey lighten-5"
+                aria-label="This is the progress indicator"
               ></v-progress-circular>
             </v-row> </template
         ></v-img>
@@ -81,6 +83,7 @@
               <v-progress-circular
                 indeterminate
                 color="grey lighten-5"
+                aria-label="This is the progress indicator"
               ></v-progress-circular>
             </v-row> </template
         ></v-img>

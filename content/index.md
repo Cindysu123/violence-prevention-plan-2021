@@ -3,11 +3,18 @@ title: Getting started
 description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
 ---
 
-<Splash image="v.png" alt="This is the alt text" temp="Splash image here"></Splash>
+<div style="height: 500px">
+
+<Splash image="v.png" alt="This is the alt text" height="500" temp="Splash image here"></Splash>
+
+</div>
 
 <!-- ---------------------------------------
 Section 01: start
 ---------------------------------------- -->
+<div class="container container--fluid" >
+<h1>Abit istis credunt adsis, lecto invidia bracchia</h1>
+</div>
 
 <div style="background: #fff !important">
 <div class="container container--fluid" >
@@ -230,6 +237,35 @@ sua subito quantum grandia: valvis Amphrisia.
 Dicentem annum somnique debere tangamque? Est ultima lumina conceptaque Nestor
 atque tempora genus armentaque omnes, fuit et. Arborei facies.
 
+<details>
+
+  <summary>Senectus arcus sit, dum quoque iliacas luctus</summary>
+
+- Totoque armis, inmotas turba qui coortis simul optetis tamen loquatur! Capro
+  fecit tot abominor talia.
+
+- Est ultima lumina conceptaque Nestor atque tempora genus armentaque omnes.
+
+- Adeo est seu quamvis Ianthe sacri patuit ferrum.
+
+</details>
+
+<details>
+  <summary>Enim more diu quid procubuit matris</summary>
+  <p>Adeo est seu quamvis Ianthe sacri patuit ferrum, demptos. Et virgineos semper
+cognita deriguere onerataque, Galanthis, dea opem traderet, deo et dextra verba.
+Sub nocte, non surgimus, intumuit clausaeque te pudicam.</p>
+</details>
+
+<details>
+  <summary>Senectus arcus sit, dum quoque iliacas luctus</summary>
+  <p>Totoque armis, inmotas turba qui coortis simul optetis tamen loquatur! Capro
+fecit tot abominor talia posita ponto saepe! Dixit et exspectatoque subitam
+Deianira dextra, caeruleo Achivi: adspice. Postquam fuisset animosos sonantem
+parentis quoque, sed dixit condidit gratia auguror aetherias inquit oderit
+ignibus opaca annis.</p>
+</details>
+
 ## Sinis medicina ad terram
 
 Adeo est seu quamvis Ianthe sacri patuit ferrum, demptos. Et virgineos semper
@@ -256,7 +292,7 @@ quos habet, non caecus, addunt conluerant in.
 Section 03: end
 ---------------------------------------- -->
 
-<Splash image="v.png" alt="This is the alt text" height="500" temp="Full width image"></Splash>
+<Splash image="v.png" alt="This is the alt text" height="500" temp="Full width image" ></Splash>
 
 <!-- ---------------------------------------
 Section 04: start

@@ -11,7 +11,7 @@
 /* eslint-disable no-unused-vars */
 import { EventBus } from '@/event-bus'
 
-// import { fixNuxtContentHeadings } from '@/a11y'
+import { fixNuxtContentHeadings } from '@/a11y'
 
 export default {
   async asyncData({ $content }) {
@@ -69,7 +69,7 @@ export default {
   },
   methods: {
     fixA11y() {
-      console.log('a11y fixes here')
+      fixNuxtContentHeadings()
       window.jQuery('.footnote-backref').each(function (index) {
         // console.log(index + ': ' + window.jQuery(this).text())
         window.jQuery(this).text('^')
@@ -77,6 +77,7 @@ export default {
       // window
       //   .jQuery('.footnotes ol')
       //   .prepend('<h2 id="references">References</h2>')
+      console.log('a11y fixes applied')
     },
   },
 }

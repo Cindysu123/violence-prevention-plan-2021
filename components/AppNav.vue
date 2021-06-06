@@ -37,7 +37,7 @@
     <v-spacer></v-spacer>
     <v-btn
       :small="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
-      :large="
+      :medium="
         $vuetify.breakpoint.md ||
         $vuetify.breakpoint.lg ||
         $vuetify.breakpoint.xl

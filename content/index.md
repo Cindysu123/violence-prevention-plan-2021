@@ -292,12 +292,10 @@ quos habet, non caecus, addunt conluerant in.
 Section 03: end
 ---------------------------------------- -->
 
-<Splash image="v.png" alt="This is the alt text" height="500" temp="Full width image" ></Splash>
-
 <!-- ---------------------------------------
 Section 04: start
 ---------------------------------------- -->
-<div style="background: #fff !important">
+<div style="background: #f1f1f1 !important">
 <div class="container container--fluid" >
 <div class="row" >
 
@@ -379,7 +377,7 @@ emicuit negabo. Evadere et victor et celebrant mora praestantior ille reddit
 Amoris audita; ultima.
 
 Aliena Thisbe et sed, et Byblis visa, cum quoque lectum animosus Antiphatae
-<Graphic alt="This is the alt text" height="200" width="200" orientation="inline-left"></Graphic>
+<Graphic alt="This is the alt text" height="200" width="200" orientation="inline-left" caption="Inpia dedere honore."></Graphic>
 illud fatebar eat inprudens passi. Aeson Patraeque cuius cava etiam lustra, fuga
 inpedientibus inpia dedere honore ferrea monstra, herba vestem. Nant mundi
 occidit adgreditur regale, auxiliumque nullo, et sine nectare vulnificus dicta
@@ -399,6 +397,26 @@ occidit adgreditur regale, auxiliumque nullo, et sine nectare vulnificus dicta
 agros aufer gelidos ab? Ad petis adeste bracchia prolem moverat spinae, iram.
 Hic ibat: omnes ferre potest non, madebit nullam ferroque sequens aut tamen
 statque.
+
+</div>
+
+</div>
+</div>
+</div>
+<!-- ---------------------------------------
+Section 04: end
+---------------------------------------- -->
+
+<Splash image="v.png" alt="This is the alt text" height="500" temp="Full width image" ></Splash>
+
+<!-- ---------------------------------------
+Section 05: start
+---------------------------------------- -->
+<div style="background: #fff !important">
+<div class="container container--fluid" >
+<div class="row" >
+
+<div class="col-12">
 
 ## Vires inhaeserat labitur metuenda gemmata inquinat solvere
 
@@ -427,7 +445,7 @@ leges, ventis potae. Percussis dolens, non et herbae magnum inventa labor.
 Dari deae Amphionis vellet o in transferre et omina tantos erit. Ecquid vel.
 Mare vacuo tibi fretum Uranie tegitur ter dubiis pressus, in fastigia ore et.
 
-<Graphic alt="This is the alt text" height="300" width="400" orientation="inline-right" caption="This is a test caption"></Graphic>
+<Graphic alt="This is the alt text" height="300" width="400" orientation="inline-right" caption="Foret nisi marito visaque"></Graphic>
 
 Sinamus munere transformata et ingens luce praenuntia flumina blando et mitem.
 Vomeribus matura, caelo late utile; nunc tumulo violentus orbem visa freto, arma
@@ -459,7 +477,7 @@ Herse, Lacinia, et ille debere querulas!
 </div>
 </div>
 <!-- ---------------------------------------
-Section 04: end
+Section 05: end
 ---------------------------------------- -->
 
 [^1]: This is the first footnote.

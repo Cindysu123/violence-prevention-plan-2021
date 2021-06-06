@@ -46,12 +46,9 @@
           class="hover"
           style="font-size: 12px; font-weight: 700"
           href="https://icjia.illinois.gov"
-          ><v-list-item-content>
-            ICJIA Main Site
-            <v-icon right small
-              >mdi mdi-open-in-new</v-icon
-            ></v-list-item-content
-          ></v-list-item
+        >
+          ICJIA Main Site
+          <v-icon right small>mdi mdi-open-in-new</v-icon></v-list-item
         >
       </v-list>
     </div>
@@ -76,7 +73,7 @@ export default {
       const nodes = document.querySelectorAll('h2')
       this.els = [...nodes]
       console.log('sidebar els: ', this.els)
-    })
+    }, 1000)
 
     EventBus.$on('toggleSidebar', () => {
       console.log('toggle sidebar')

@@ -266,7 +266,7 @@ parentis quoque, sed dixit condidit gratia auguror aetherias inquit oderit
 ignibus opaca annis.</p>
 </details>
 
-## Sinis medicina
+### Sinis medicina
 
 Adeo est seu quamvis Ianthe sacri patuit ferrum, demptos. Et virgineos semper
 cognita deriguere onerataque, Galanthis, dea opem traderet, deo et dextra verba.
@@ -320,7 +320,7 @@ Putat iungunt et plausu gelidum inplet, tempora numerare vidisse erunt: quas
 verte. At remittat verba. Et utque Victoria revellit adspicit tacto. Quid Abas
 pulvere nostri elementa.
 
-## Olentia antiquus cruentum
+### Olentia antiquus cruentum
 
 Pendent curre parat crurumque obscurum, fit retro retenta vulnere. Vel in vidit
 Dryope! Nimiis humus iam exprimitur filia, mutatur non supremumque lenimen mihi!
@@ -354,7 +354,7 @@ laborem dixit puppe igne postquam tergoque utinam: calcatis. Paridis et quam
 isto orbem flumina corpora Colophonius bacchae simulacra coniugis, Xanthos
 periclo virgineos quo, Hymenaeus corpusque.
 
-## Lympha quod memorante
+### Lympha quod memorante
 
 Amantes ferit Laurentes si robore inpius obscura amictu amorem, ast tamen
 tympana! Clipeoque coniunx. Aevi fugae, ensem cernens, vim artis, cum rutilum
@@ -369,7 +369,7 @@ aethera aggere qui.
 
 <Graphic alt="This is the alt text" orientation="center" height="400" width="800" caption="Figure 2: Ambiguo artes vultus et an plausu quoque"></Graphic>
 
-## Non meum aves arma
+### Non meum aves arma
 
 Qualis deum porrexit si ambiguo artes vultus et an plausu quoque. Proteus
 tellure spectant sucis ense, capillos duro vestigia Desierat, Alcide ipse
@@ -406,8 +406,6 @@ statque.
 <!-- ---------------------------------------
 Section 04: end
 ---------------------------------------- -->
-
-<Splash image="v.png" alt="This is the alt text" height="500" temp="Full width image" ></Splash>
 
 <!-- ---------------------------------------
 Section 05: start

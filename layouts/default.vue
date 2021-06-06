@@ -1,8 +1,8 @@
 <template>
   <client-only>
-    <!-- <SkipLinks></SkipLinks> -->
     <v-app>
       <div style="min-height: 100vh !important">
+        <SkipLinks></SkipLinks>
         <AppNav></AppNav>
         <AppSidebar></AppSidebar>
         <main>

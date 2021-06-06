@@ -1,13 +1,16 @@
 <template>
-  <div style="margin-top: 90px">
-    <nuxt-content :document="page" class="markdown-body" />
-  </div>
+  <client-only>
+    <div style="margin-top: 90px">
+      <nuxt-content :document="page" class="markdown-body" />
+    </div>
+  </client-only>
 </template>
 
 <script>
 /* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
 import { EventBus } from '@/event-bus'
+
 // import { fixNuxtContentHeadings } from '@/a11y'
 
 export default {
@@ -41,7 +44,7 @@ export default {
           function (e) {
             e.preventDefault()
             // console.log(this.getAttribute('href'))
-            vm.$vuetify.goTo(this.getAttribute('href'), { offset: 100 })
+            vm.$vuetify.goTo(this.getAttribute('href'), { offset: 200 })
           },
           10
         )
@@ -67,6 +70,10 @@ export default {
   methods: {
     fixA11y() {
       console.log('a11y fixes here')
+      window.jQuery('.footnote-backref').each(function (index) {
+        // console.log(index + ': ' + window.jQuery(this).text())
+        window.jQuery(this).text('^')
+      })
     },
   },
 }

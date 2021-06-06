@@ -66,9 +66,10 @@ export default {
   hooks: {
     'content:file:beforeInsert': (document) => {
       // ... add full markdown to returned $content object
-      if (document.extension === '.md') {
-        document.markdown = document.text
-      }
+      // if (document.extension === '.md') {
+      //   document.markdown = document.text
+      // }
+      // console.log('document: ', document)
     },
   },
 

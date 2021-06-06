@@ -7,7 +7,10 @@
     scroll-threshold="1"
     style="border-bottom: 1px solid #eee !important"
   >
-    <v-app-bar-nav-icon @click="toggleSidebar"></v-app-bar-nav-icon>
+    <v-app-bar-nav-icon
+      aria-label="Click to toggle sidebar"
+      @click="toggleSidebar"
+    ></v-app-bar-nav-icon>
 
     <v-spacer
       v-if="$vuetify.breakpoint.sm || $vuetify.breakpoint.xs"

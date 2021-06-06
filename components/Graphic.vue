@@ -8,6 +8,7 @@
               :src="`https://dummyimage.com/${width}x${height}`"
               :lazy-src="`https://dummyimage.com/10x10`"
               :alt="alt"
+              min-height="300"
             >
               <template #placeholder>
                 <v-row class="fill-height ma-0" align="center" justify="center">
@@ -17,6 +18,12 @@
                   ></v-progress-circular>
                 </v-row> </template
             ></v-img>
+            <!-- <v-img
+              :src="`https://dummyimage.com/2000x800`"
+              :lazy-src="`https://dummyimage.com/10x10`"
+              :max-height="maxHeight"
+              :max-width="maxWidth"
+            ></v-img> -->
           </v-flex>
         </v-layout>
         <v-layout justify-center align-center>
@@ -97,6 +104,14 @@ export default {
     height: {
       type: Number,
       default: 200,
+    },
+    maxHeight: {
+      type: Number,
+      default: 500,
+    },
+    maxWidth: {
+      type: Number,
+      default: 1500,
     },
 
     orientation: {

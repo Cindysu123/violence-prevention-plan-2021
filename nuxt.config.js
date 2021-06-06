@@ -21,6 +21,11 @@ export default {
       {
         src: 'https://code.jquery.com/jquery-3.6.0.slim.min.js',
       },
+      {
+        src: 'https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js',
+        async: true,
+        body: true,
+      },
     ],
   },
 

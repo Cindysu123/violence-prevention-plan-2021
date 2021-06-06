@@ -30,7 +30,7 @@
           class="hover"
           style="font-size: 12px; font-weight: 700"
           @click="$vuetify.goTo(0)"
-          ><v-list-content> Introduction</v-list-content></v-list-item
+          ><v-list-item-content> Introduction</v-list-item-content></v-list-item
         >
         <v-list-item
           v-for="(item, index) in els"
@@ -46,9 +46,11 @@
           class="hover"
           style="font-size: 12px; font-weight: 700"
           href="https://icjia.illinois.gov"
-          ><v-list-content>
+          ><v-list-item-content>
             ICJIA Main Site
-            <v-icon right small>mdi mdi-open-in-new</v-icon></v-list-content
+            <v-icon right small
+              >mdi mdi-open-in-new</v-icon
+            ></v-list-item-content
           ></v-list-item
         >
       </v-list>

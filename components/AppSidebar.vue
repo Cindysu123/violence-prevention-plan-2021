@@ -27,6 +27,12 @@
       </li> -->
       <v-list dense style="margin-top: -10px">
         <v-list-item
+          class="hover"
+          style="font-size: 12px; font-weight: 700"
+          @click="$vuetify.goTo(0)"
+          ><v-list-content> Introduction</v-list-content></v-list-item
+        >
+        <v-list-item
           v-for="(item, index) in els"
           :key="index"
           class="hover"
@@ -35,6 +41,16 @@
         >
           <v-list-item-content> {{ item.innerHTML }}</v-list-item-content>
         </v-list-item>
+        <v-divider></v-divider>
+        <v-list-item
+          class="hover"
+          style="font-size: 12px; font-weight: 700"
+          href="https://icjia.illinois.gov"
+          ><v-list-content>
+            ICJIA Main Site
+            <v-icon right small>mdi mdi-open-in-new</v-icon></v-list-content
+          ></v-list-item
+        >
       </v-list>
     </div>
   </v-navigation-drawer>

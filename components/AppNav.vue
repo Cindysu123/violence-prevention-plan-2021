@@ -35,6 +35,26 @@
     </div>
 
     <v-spacer></v-spacer>
+    <v-btn
+      :small="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
+      :large="
+        $vuetify.breakpoint.md ||
+        $vuetify.breakpoint.lg ||
+        $vuetify.breakpoint.xl
+      "
+      @click="downloadReport()"
+      >Download <span class="hidden-sm-and-down">Report</span
+      ><v-icon
+        right
+        :medium="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
+        :large="
+          $vuetify.breakpoint.md ||
+          $vuetify.breakpoint.lg ||
+          $vuetify.breakpoint.xl
+        "
+        >mdi mdi-file-pdf-outline</v-icon
+      ></v-btn
+    >
   </v-app-bar>
 </template>
 
@@ -55,6 +75,10 @@ export default {
       // eslint-disable-next-line no-console
       // console.log('goto Top')
       this.$vuetify.goTo(0)
+    },
+    downloadReport() {
+      // eslint-disable-next-line no-console
+      console.log('download report here')
     },
   },
 }

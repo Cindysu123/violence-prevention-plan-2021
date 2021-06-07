@@ -34,10 +34,10 @@
           small
           v-bind="attrs"
           class="mr-5"
+          aria-label="Full Report"
           v-on="on"
           @click="downloadReport()"
-          >Full <span class="hidden-sm-and-down">Report</span
-          ><v-icon right>mdi mdi-file-pdf-outline</v-icon></v-btn
+          >Full Report<v-icon right>mdi mdi-file-pdf-outline</v-icon></v-btn
         >
       </template>
       <span>Download full report</span>
@@ -48,13 +48,14 @@
           text
           style="font-weight: bold"
           v-bind="attrs"
+          aria-label="Click for Menu"
           v-on="on"
           @click="toggleSidebar"
         >
           <v-icon>mdi mdi-menu</v-icon></v-btn
         >
       </template>
-      <span>Open table of contents</span>
+      <span>Menu</span>
     </v-tooltip>
 
     <!-- <v-app-bar-nav-icon

@@ -26,7 +26,7 @@ const fixBlankTableHeadings = function () {
 }
 
 // fix empty H2 headings with Nuxt 2.14+ sites using nuxt-content
-const fixNuxtContentHeadings = function (querySelectors = 'H2, H3') {
+const fixNuxtContentHeadings = function (querySelectors = 'H2, H3, H4, H5') {
   const els = document.querySelectorAll(querySelectors)
   for (let i = 0, len = els.length; i < len; ++i) {
     const subEl = els[i].querySelectorAll('a')
@@ -37,5 +37,8 @@ const fixNuxtContentHeadings = function (querySelectors = 'H2, H3') {
     }
   }
 }
+
+// fix empty links
+// const fixEmptyLinks = function (querySelectors = 'H2, H3') {}
 
 export { fixButtonText, fixBlankTableHeadings, fixNuxtContentHeadings }

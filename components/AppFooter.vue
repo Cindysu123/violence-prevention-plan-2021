@@ -8,7 +8,7 @@
     >
       <v-card-text
         class="text-center mt-2"
-        style="color: #fff; font-size: 10px"
+        style="color: #ddd; font-size: 12px"
       >
         Disclaimer here Disclaimer here Disclaimer here Latet quod, dat odium
         Aetolius abruptaque longaeque litusque, levior pater omne, potuit. Est
@@ -19,7 +19,7 @@
         sustinet.
       </v-card-text>
       <v-card-text class="mb-2" style="margin-top: -10px">
-        <div style="font-size: 12px; color: #fff">
+        <div style="font-size: 14px; color: #fff">
           &copy;&nbsp;{{ new Date().getFullYear() }}
           <strong>
             <a

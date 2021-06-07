@@ -11,7 +11,7 @@
 /* eslint-disable no-unused-vars */
 import { EventBus } from '@/event-bus'
 
-import { fixNuxtContentHeadings } from '@/a11y'
+import { fixNuxtContentHeadings, fixBlankTableHeadings } from '@/a11y'
 
 export default {
   async asyncData({ $content }) {
@@ -79,6 +79,8 @@ export default {
   methods: {
     fixA11y() {
       fixNuxtContentHeadings()
+
+      fixBlankTableHeadings()
       window.jQuery('.footnote-backref').each(function (index) {
         window.jQuery(this).text('^')
       })

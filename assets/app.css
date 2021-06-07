@@ -12,9 +12,16 @@
   margin-bottom: 30px;
 }
 
-.image--caption {
+.image--caption,
+.table--caption {
   font-size: 14px;
   color: #555;
+}
+table {
+}
+table caption {
+  font-weight: 900;
+  margin-bottom: 15px;
 }
 
 /* .splash {

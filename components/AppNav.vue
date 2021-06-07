@@ -15,15 +15,20 @@
     />
 
     <div
-      style="font-size: 24px; font-weight: bold; margin-left: 5px"
+      style="
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 5px;
+        text-transform: uppercase;
+      "
       class="hover hidden-sm-and-down"
       @click="gotoTop()"
     >
-      VIOLENCE PREVENTION PROJECT
+      Statewide Violence Prevention Plan: 2020-2024
     </div>
 
     <v-spacer></v-spacer>
-    <v-tooltip left>
+    <v-tooltip bottom>
       <template #activator="{ on, attrs }">
         <v-btn
           small
@@ -31,15 +36,26 @@
           class="mr-5"
           v-on="on"
           @click="downloadReport()"
-          >Download <span class="hidden-sm-and-down">Report</span
+          >Full <span class="hidden-sm-and-down">Report</span
           ><v-icon right>mdi mdi-file-pdf-outline</v-icon></v-btn
         >
       </template>
-      <span>Click to download full report</span>
+      <span>Download full report</span>
     </v-tooltip>
-    <v-btn text style="font-weight: bold" @click="toggleSidebar">
-      MENU <v-icon right>mdi mdi-menu</v-icon></v-btn
-    >
+    <v-tooltip bottom>
+      <template #activator="{ on, attrs }">
+        <v-btn
+          text
+          style="font-weight: bold"
+          v-bind="attrs"
+          v-on="on"
+          @click="toggleSidebar"
+        >
+          <v-icon>mdi mdi-menu</v-icon></v-btn
+        >
+      </template>
+      <span>Open table of contents</span>
+    </v-tooltip>
 
     <!-- <v-app-bar-nav-icon
       aria-label="Click to toggle sidebar"

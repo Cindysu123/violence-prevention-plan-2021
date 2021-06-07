@@ -179,6 +179,12 @@ ignibus opaca annis.</p>
 Dicentem annum somnique debere tangamque? Est ultima lumina conceptaque Nestor
 atque tempora genus armentaque omnes, fuit et. Arborei facies.
 
+| Column 1 Header                  | Column 2 Header                                                      | Column 3 Header |
+| -------------------------------- | -------------------------------------------------------------------- | --------------- |
+| Row 1 Column 1<br>This is a test | Row 1 Column 2<br>this is a test of a<br>wide column with linebreaks | Row 1 Column 3  |
+| Row 2 Column 1                   | Row 2 Column 2                                                       | Row 2 Column 3  |
+| Row 3 Column 1                   | Row 3 Column 2                                                       | Row 3 Column 3  |
+
 ### Sinis medicina ad terram
 
 Adeo est seu quamvis Ianthe sacri patuit ferrum, demptos. Et virgineos semper

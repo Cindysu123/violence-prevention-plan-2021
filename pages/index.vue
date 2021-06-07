@@ -1,7 +1,7 @@
 <template>
   <client-only>
-    <div style="margin-top: 90px">
-      <nuxt-content :document="page" class="markdown-body" />
+    <div style="" class="pb-12">
+      <nuxt-content :document="page" class="markdown-body pageTopBuffer" />
     </div>
   </client-only>
 </template>
@@ -84,12 +84,21 @@ export default {
       })
 
       window
-        .jQuery(
-          '<h2 id="references" style="margin-left: 15px; margin-right: 15px;">References</h2>'
-        )
+        .jQuery('<h2 id="references">References</h2>')
         .insertAfter('.footnotes hr')
       console.log('a11y fixes applied')
     },
   },
 }
 </script>
+
+<style>
+.pageTopBuffer {
+  margin-top: 90px;
+}
+
+#references {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+</style>

@@ -1,19 +1,12 @@
 <template>
-  <v-app-bar
-    app
-    color="white"
-    height="90"
-    fixed
-    scroll-threshold="1"
-    style="border-bottom: 1px solid #eee !important"
-  >
+  <v-app-bar app color="white" height="90" fixed scroll-threshold="1" style="">
     <v-spacer
       v-if="$vuetify.breakpoint.sm || $vuetify.breakpoint.xs"
     ></v-spacer>
 
     <v-img
       alt="ICJIA Logo"
-      class="shrink ml-0 mr-2 hover"
+      class="shrink ml-0 mr-2 hover appBar"
       contain
       src="/icjia-logo.png"
       transition="scale-transition"
@@ -81,4 +74,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+.appBar {
+  border-bottom: 1px solid #eee !important;
+}
+</style>

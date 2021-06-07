@@ -1,7 +1,7 @@
 <template>
   <client-only>
     <v-app>
-      <div style="min-height: 100vh !important">
+      <div id="base">
         <SkipLinks></SkipLinks>
         <AppNav></AppNav>
         <AppSidebar></AppSidebar>
@@ -9,7 +9,7 @@
           <nuxt id="main" class="" />
         </main>
       </div>
-      <!-- <AppFooter></AppFooter> -->
+      <AppFooter></AppFooter>
     </v-app>
   </client-only>
 </template>
@@ -21,3 +21,9 @@ export default {
   },
 }
 </script>
+
+<style>
+#base {
+  min-height: 100vh !important;
+}
+</style>

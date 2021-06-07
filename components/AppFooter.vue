@@ -1,40 +1,5 @@
 <template>
   <v-footer padless class="noprint">
-    <!-- <v-card
-      v-if="!isLoading"
-      flat
-      tile
-      class="text-center"
-      style="width: 100%; background: #0d4474"
-    >
-      <v-card-text>
-        <div v-if="items">
-          <v-btn
-            v-for="(item, index) in items"
-            :key="`nav-${index}`"
-            :to="item.path === '/index' ? '/' : `${item.path}/`"
-            text
-            class="footer-link"
-            style="font-weight: 900"
-            :aria-label="item.title"
-          >
-            <span v-if="item.menuTitle">
-              {{ item.menuTitle }}
-            </span>
-            <span v-else>{{ item.title }}</span>
-          </v-btn>
-
-          <v-btn
-            to="/search/"
-            text
-            class="footer-link"
-            style="font-weight: 900"
-            aria-label="search"
-            >Search</v-btn
-          >
-        </div></v-card-text
-      >
-    </v-card> -->
     <v-card
       flat
       tile
@@ -45,13 +10,13 @@
         class="text-center mt-2"
         style="color: #fff; font-size: 10px"
       >
-        This website was produced by the Illinois Criminal Justice Information
-        Authority under cooperative agreement number #2017-VF-GX-K002, awarded
-        by the Office for Victims of Crime, Office of Justice Programs, U.S.
-        Department of Justice. The opinions, findings, and conclusions or
-        recommendations expressed in this website are those of the contributors
-        and do not necessarily represent the official positions or policies of
-        the U.S. Department of Justice.
+        Disclaimer here Disclaimer here Disclaimer here Latet quod, dat odium
+        Aetolius abruptaque longaeque litusque, levior pater omne, potuit. Est
+        dona solusque Diam lactantia corpore nulla nec et parens habemus, pictis
+        stravit, nactus commissa puniceum. Ferrum animo utrumque iungit, quem
+        atque se folio debilitaturum et vestigia, videt bicorni ferro, extremo.
+        Pittheam hoc manus dictis desertaque quam, crescentemque mansit
+        sustinet.
       </v-card-text>
       <v-card-text class="mb-2" style="margin-top: -10px">
         <div style="font-size: 12px; color: #fff">
@@ -71,7 +36,7 @@
               target="_blank"
               class="footer-link"
               rel="noreferrer"
-              >Document Archive</a
+              >ICJIA Document Archive</a
             ></strong
           >&nbsp;|&nbsp;
           <strong>
@@ -80,7 +45,7 @@
               target="_blank"
               class="footer-link"
               rel="noreferrer"
-              >Site status</a
+              >ICJIA Site status</a
             ></strong
           >
           &nbsp;|&nbsp;
@@ -108,15 +73,6 @@ export default {
     items: null,
     isLoading: false,
   }),
-  // async created() {
-  //   this.items = await this.$content()
-  //     .where({ showInFooter: true })
-  //     .only(['title', 'menuTitle', 'slug', 'path', 'menuRank'])
-  //     .sortBy('menuRank', 'asc')
-  //     .fetch()
-  //   // console.log(this.items)
-  //   this.isLoading = false
-  // },
 }
 </script>
 

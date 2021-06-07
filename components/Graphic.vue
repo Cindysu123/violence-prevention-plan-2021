@@ -8,7 +8,8 @@
               :src="`https://dummyimage.com/${width}x${height}`"
               :lazy-src="`https://dummyimage.com/10x10`"
               :alt="alt"
-              min-height="300"
+              :height="height"
+              :width="width"
             >
               <template #placeholder>
                 <v-row class="fill-height ma-0" align="center" justify="center">

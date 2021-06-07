@@ -65,38 +65,21 @@ export default {
     })
   },
   beforeDestroy() {
-    const vm = this
-    const elements = document.getElementsByClassName('footnote-backref')
-    for (let i = 0; i < elements.length; i++) {
-      elements[i].removeEventListener(
-        'click',
-        function (e) {
-          e.preventDefault()
-          vm.$vuetify.goTo(this.getAttribute('href'), { offset: 15 })
-        },
+    // remove all eventListeners
+    const backrefEls = document.getElementsByClassName('footnote-backref')
+    const backrefElsClone = backrefEls.cloneNode(true)
+    backrefEls.parentNode.replaceChild(backrefElsClone, backrefEls)
 
-        10
-      )
-    }
-    const fnRef = document.getElementsByClassName('footnote-ref')
-    for (let i = 0; i < fnRef.length; i++) {
-      fnRef[i].removeEventListener(
-        'click',
-        function (e) {
-          e.preventDefault()
-          // console.log(this.getAttribute('href'))
-          vm.$vuetify.goTo(this.getAttribute('href'), { offset: 200 })
-        },
-        10
-      )
-    }
+    const footnoterefEls = document.getElementsByClassName('footnote-ref')
+    const footnoterefElsClone = footnoterefEls.cloneNode(true)
+    footnoterefEls.parentNode.replaceChild(footnoterefElsClone, footnoterefEls)
+
     console.log('beforeDestroy: removeEventListeners')
   },
   methods: {
     fixA11y() {
       fixNuxtContentHeadings()
       window.jQuery('.footnote-backref').each(function (index) {
-        // console.log(index + ': ' + window.jQuery(this).text())
         window.jQuery(this).text('^')
       })
 

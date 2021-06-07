@@ -1,6 +1,10 @@
 <template>
   <div>
-    <table cellspacing="0" summary="Example of Dynamic Table" class="chart">
+    <table
+      cellspacing="0"
+      summary="This is an Example of Dynamic Table"
+      class="table"
+    >
       <caption>
         Example of Dynamic Table
       </caption>

@@ -33,14 +33,21 @@ table caption {
 } */
 
 details {
-  background: #ddd;
-  margin-bottom: 1.5rem;
+  background: #f1f1f1;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   padding: 0.5rem 1rem;
+  margin-top: 3px;
 }
 
 summary {
   cursor: pointer;
   font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+details * h2 {
+  border: 0px !important;
 }
 
 summary > * {

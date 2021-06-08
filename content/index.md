@@ -20,7 +20,7 @@ Section 01: start
 <div class="container container--fluid" >
 <div class="row" >
 
-<div class="col-md-6 col-12">
+<div class="col-12">
 
 Lorem markdownum per, sunt populi, possis moenia ut illic plangore attonitus
 aura. Arcadiae talibus Cyparisse demens dignissime invecta vir dolis tauros
@@ -66,53 +66,6 @@ meorum, ad aequa sermo; Crotonis quicquid ramos qui Melaneus. Iovem memorant
 facitote, hinc verba videtur reverentia illic velamine?
 
 </div>
-
-<div class="col-md-6 col-12">
-
-Lorem markdownum et dicet mecum, relicto, illo haud, qui et est colloque
-toroque. Curvarent vulnera adit, qui inque; est sitim etiam abesset, Iole induat
-vires tenues vincet palustris quicquid. Achilles nimbisque Achillis index
-populante laeva, velant sine timentia quo mihique infirmos Achelous veniet.
-Vagis silvarum, ex fuit fertur edere ignara legem. Suus urbis, litora horum, per
-suum Dymantida deus feriente salutent exorata quaerit firmissimus vulnus filia,
-temptat.
-
-Lacertis effodiuntur euntque multi et aperire fides est ceperit cecidit
-sollicitive elige, dicente Mars, iustis. Ante guttura, duro tyranno, sua annos
-sponte ramos. Nec prodis ignibus aequore nunc, quod malis et sinus periture,
-facerem? Ut oblatae fessis palluerat; dum Troiam quod Alcyone genitas; reverti
-datis imagine causa inminet mora guttura intacta diremit. In inlisit nocent
-graciles peteret.
-
-### Totum remoto parentis arboris ferro paruerant lebetes
-
-Dicor pudibunda ferae abiit, solita sibi circumspicit siste. Quis hoc multum
-signisque quicquam neque, omni via viro vires mens. Vocalia prohibebar quae
-oscula, urbe in esse quod partique fuit convivia adsunt, venti lacrimarum
-adigitque.
-
-### Quoscumque marinae laniavit tuis tristis conata pectora
-
-Forsitan est mediis gravidi et deos celerique Venus rediere tamen tot. Prius
-mota abnuit virga, rex Fame enim auctor. Idas Aetnae heros mensor capiebat natae
-rasilis quod dum praeferrer insula medio, membra levi. Omnis tibi sociamque
-odore.
-
-### Moriensque tenuere Ericthonio
-
-Vidisse ante parte, umbras capit, sine in movit a incola neque flenti laniabat
-possim. Insania vittae illic circum adsensit gratus glaebae vestrum: Aeaciden.
-Serpunt taurum Rhadamanthon causa; accedere, dum Philomela, ad. Quae Boeotiaque:
-ardere vincetur in terris Mavortis, animaeque quercus ille, nam.
-
-Est orbator moriens, an saepe. Est velle Minoa, alis quaque? Ab plura stirpe
-quoque uberior et pectora verti formidabilis illa, ille. Erat maiore mortale,
-data mirata possint acres ita submovet animal. Est divisque pronus et fletibus
-artibus eadem inque Tydiden promissa.
-
-Spem culpae et abstinet mollis. Caput stridore deflevit.
-
-</div>
 </div>
 </div>
 </div>
@@ -124,7 +77,7 @@ Section 01: end
 Section 02: start
 ---------------------------------------- -->
 
-<div style="background: #f1f1f1 !important" class="rule">
+<div style="background: #fff">
 <div class="container container--fluid" >
 <div class="row" >
 
@@ -217,7 +170,7 @@ Section 02: end
 Section 03: start
 ---------------------------------------- -->
 
-<div style="background: #fff !important">
+<div style="background: #fff">
 <div class="container container--fluid" >
 <div class="row" >
 
@@ -303,13 +256,18 @@ Section 03: end
 <!-- ---------------------------------------
 Section 04: start
 ---------------------------------------- -->
-<div style="background: #f1f1f1 !important" class="rule">
+<div style="background: #fff">
+<details>
+
+<summary>
+
+## This is an expandable section
+
+</summary>
 <div class="container container--fluid" >
 <div class="row" >
 
 <div class="col-12">
-
-## Bucera coloribus
 
 Acuta flavae rarior Alcyonen unde carentem Troiae vestemque iniusti cornus
 egrediturque putat cessisse; misit uno! Arce niveis, solet procul anhelitus
@@ -410,6 +368,7 @@ statque.
 
 </div>
 </div>
+<details>
 </div>
 <!-- ---------------------------------------
 Section 04: end
@@ -418,7 +377,94 @@ Section 04: end
 <!-- ---------------------------------------
 Section 05: start
 ---------------------------------------- -->
-<div style="background: #fff !important">
+<div style="background: #fff">
+<details>
+<summary>
+
+## This is another expandable section
+
+</summary>
+
+<div class="container container--fluid" >
+<div class="row" >
+<div class="col-12">
+
+Acuta flavae rarior Alcyonen unde carentem Troiae vestemque iniusti cornus
+egrediturque putat cessisse; misit uno! Arce niveis, solet procul anhelitus
+corpore iuvencae vix habebat deduxit inritata. Subito Capysque umorque novercae,
+partim. Nec per pectoraque nullam conticuere ripis redit an gradere nec; nec
+ille. Manibus nostris; aegre fateor, iamque Myrmidonasque clamat in antiquarum
+Dianae cepere cum.
+
+Frustra solet, includit trado deducentia meoque: pennis tamen plenum: fundunt
+dum vincite longo. Imitata et mille, signataque sumit deprensa indigenaene
+Pergama non mihi respicit corpora, nescio optat manus Virbius!
+
+Putat iungunt et plausu gelidum inplet, tempora numerare vidisse erunt: quas
+verte. At remittat verba. Et utque Victoria revellit adspicit tacto. Quid Abas
+pulvere nostri elementa.
+
+### Olentia antiquus cruentuma
+
+Pendent curre parat crurumque obscurum, fit retro retenta vulnere. Vel in vidit
+Dryope! Nimiis humus iam exprimitur filia, mutatur non supremumque lenimen mihi!
+
+Redit vulgarunt nolit, venas denique spatiosumque mulcet habebit oscula nec! Hac
+hae nec, repulsus nate fata profuit Cillan optari, tauro ilia non.
+
+Erat est, sereno verus ad sublimes esset in petis dea. Cum inque, lentum nil
+Messenia, luminibus deus. Cadit nascentia relatis servatus tolles sparsuras, sed
+et cursus agit egi est. Nido cum, currus plangore se illa arvis ad Desinet
+lumina comas exhalarunt tibi Pelori: rettuleram.
+
+<Graphic alt="This is the alt text" orientation="center" height="400" width="1200" caption="Figure 1: A et nec perveniunt et tyranni summaque concipit"></Graphic>
+
+Gorgoneas currus desuetudine suo, a tantum sorores ignavi, vitaque. Animal tria
+vires, ad liceret tardarunt inponis cuperem, armis ore ad mora, recepto
+pericula. Cum tutus alis illa haerebat, haec, profuga fervore pectoris maxima,
+bis. Solebat is tellus Circes deae, Ismenides gemitumque dura! Amplexus non,
+quem nec: non vir Cytherea pro senior ictibus.
+
+Lorem markdownum possint. A et nec perveniunt et tyranni summaque concipit,
+admisitque vix. Absistit mihi voce magni tandem vivit, conterminus, est palmas
+oraque vina gramen sit. Carmine probat canat istis numerandos ager vidistis me
+ante pariter prima, parentum ventos patrio nisi si dentes, sceleris. Voluntas
+aquae: Cadme inmotosque quod murraeque vestemque quod subiecta cecidit nec Erebi
+perstat Hippodamen.
+
+Philomela vana Creten addit interitura Quinque mitia, pependit bello oro de
+virgo cornua refert plura primus. Regna numquam, tua dummodo, et moram iacentes
+laborem dixit puppe igne postquam tergoque utinam: calcatis. Paridis et quam
+isto orbem flumina corpora Colophonius bacchae simulacra coniugis, Xanthos
+periclo virgineos quo, Hymenaeus corpusque.
+
+Inpia dedere honore ferrea monstra, herba vestem. Nant mundi
+occidit adgreditur regale, auxiliumque nullo, et sine nectare vulnificus dicta
+agros aufer gelidos ab? Ad petis adeste bracchia prolem moverat spinae, iram.
+Hic ibat: omnes ferre potest non, madebit nullam ferroque sequens aut tamen
+statque.
+
+Aeson Patraeque cuius cava etiam lustra, fuga
+inpedientibus inpia dedere honore ferrea monstra, herba vestem. Nant mundi
+occidit adgreditur regale, auxiliumque nullo, et sine nectare vulnificus dicta
+agros aufer gelidos ab? Ad petis adeste bracchia prolem moverat spinae, iram.
+Hic ibat: omnes ferre potest non, madebit nullam ferroque sequens aut tamen
+statque.
+
+</div>
+
+</div>
+</div>
+<details>
+</div>
+<!-- ---------------------------------------
+Section 05: end
+---------------------------------------- -->
+
+<!-- ---------------------------------------
+Section 06: start
+---------------------------------------- -->
+<div style="background: #fff">
 <div class="container container--fluid" >
 <div class="row" >
 
@@ -483,7 +529,7 @@ Herse, Lacinia, et ille debere querulas!
 </div>
 </div>
 <!-- ---------------------------------------
-Section 05: end
+Section 06: end
 ---------------------------------------- -->
 
 [^1]: This is the first footnote.

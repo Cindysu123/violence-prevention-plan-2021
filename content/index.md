@@ -368,7 +368,7 @@ statque.
 
 </div>
 </div>
-<details>
+</details>
 </div>
 <!-- ---------------------------------------
 Section 04: end
@@ -455,7 +455,7 @@ statque.
 
 </div>
 </div>
-<details>
+</details>
 </div>
 <!-- ---------------------------------------
 Section 05: end

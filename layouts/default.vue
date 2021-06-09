@@ -5,6 +5,7 @@
         <SkipLinks></SkipLinks>
         <AppNav></AppNav>
         <AppSidebar></AppSidebar>
+        <ModalGoals></ModalGoals>
         <main>
           <nuxt id="main" class="" />
         </main>

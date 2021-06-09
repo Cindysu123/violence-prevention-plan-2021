@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" max-width="800px">
+  <v-dialog v-model="dialog" max-width="1024px">
     <v-card>
       <div v-if="!loading">
         <div
@@ -17,6 +17,7 @@
         <div style="font-size: 18px; font-weight: 900" class="px-3 py-2">
           {{ meta.heading }}
         </div>
+        <div class="px-3 py-1">{{ meta.description }}</div>
 
         <v-card-text>
           <nuxt-content

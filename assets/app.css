@@ -151,3 +151,13 @@ a.footnote-backref {
 .skip-link:focus {
   transform: translateY(0%);
 }
+
+.markdown-body table th {
+  background: #333;
+  color: #fff;
+}
+
+.markdown-body table td {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}

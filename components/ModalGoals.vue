@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" width="600px">
+  <v-dialog v-model="dialog" max-width="800px">
     <v-card>
       <div v-if="!loading">
         <div
@@ -8,7 +8,7 @@
             text-transform: uppercase;
             color: #fff;
             font-weight: bold;
-            background: #aaa;
+            background: #0d4474;
           "
           class="px-3 py-2"
         >
@@ -27,7 +27,7 @@
         <v-card-actions>
           <v-spacer></v-spacer>
 
-          <v-btn color="green darken-1" text @click="dialog = false">
+          <v-btn color="blue darken-1" text @click="dialog = false">
             Close
           </v-btn>
         </v-card-actions>

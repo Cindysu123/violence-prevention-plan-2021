@@ -22,7 +22,7 @@
               text-transform: uppercase;
               color: #fff;
               font-weight: bold;
-              background: #aaa;
+              background: #0d4474;
             "
             class="px-3 py-2"
           >

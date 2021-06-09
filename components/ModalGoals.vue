@@ -2,10 +2,22 @@
   <v-dialog v-model="dialog" width="600px">
     <v-card>
       <div v-if="!loading">
-        <v-card-title>
-          <span>{{ meta.title }}</span>
-        </v-card-title>
-        <v-card-text>{{ meta.heading }}</v-card-text>
+        <div
+          style="
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            background: #aaa;
+          "
+          class="px-3 py-2"
+        >
+          {{ meta.title }}
+        </div>
+        <div style="font-size: 18px; font-weight: 900" class="px-3 py-2">
+          {{ meta.heading }}
+        </div>
+
         <v-card-text>
           <nuxt-content
             :document="markdown"

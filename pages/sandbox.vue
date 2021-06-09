@@ -31,9 +31,7 @@
           <div style="font-size: 18px; font-weight: 900" class="px-3 py-2">
             {{ goal.heading }}
           </div>
-          <div style="font-size: 16px">
-            {{ goal.description }}
-          </div>
+
           <v-card-actions class="px-4">
             <v-spacer></v-spacer>
             <v-btn small color="grey darken-2" dark @click="showGoal(goal)">
